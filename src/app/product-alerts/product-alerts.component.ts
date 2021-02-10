@@ -13,4 +13,9 @@ export class ProductAlertsComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  alertFromSelf()
+  {
+    window.alert('Howdie!!');
+  }
 }
